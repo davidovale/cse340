@@ -1,0 +1,140 @@
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav li:hover {
+    background-color: #4c96d7;
+    color: black;
+  }
+
+  .topnav li a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav li.active {
+    
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav ul{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  html{
+    
+    background-image: url('/phpmotors/images/site/small_check.jpg');
+  }
+
+  body{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    background-color: white;
+    border: 3px solid #4c96d7;
+    border-radius: 10px;
+    margin: 20px 30px;
+    
+  }
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    grid-column: span 3;
+    margin: 10px;
+  }
+
+  .logo{
+    padding: 5px;
+  }
+
+  .myAcc{
+    text-align: right;
+    grid-column: span 2;
+    padding: 30px 40px;
+  }
+
+  main{
+    margin: 10px;
+    padding: 0px;
+    grid-column: span 3;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+  }
+
+  header{
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header img{
+    grid-column-start: 1;
+  }
+
+  header a{
+    grid-column-end: 3;
+    text-decoration: none;
+    color: #8d8d8d;
+  }
+
+  footer{
+    grid-column: span 3;
+    text-align: center;
+  }
+
+#contentCar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+}
+
+.car{
+  grid-column-start: 2;
+  grid-column-end: 3;
+ 
+}
+
+#contenCar section{
+  grid-column: 1;
+  
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.imagesCar{
+  background-color: #4c96d7;
+}
+
+#listUpgrades{
+  text-align: center;
+}
+
+.section_infoCar{
+  border: 1px solid pink;
+}
+
+#descriptionCar{
+  display: flex;
+  flex-direction: row;
+}
